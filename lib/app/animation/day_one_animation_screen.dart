@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-class DayOneAnimationScreen extends StatefulWidget {
-  const DayOneAnimationScreen({super.key});
+class DayOneCoffeeAnimationScreen extends StatefulWidget {
+  const DayOneCoffeeAnimationScreen({super.key});
 
   @override
-  State<DayOneAnimationScreen> createState() => _DayOneAnimationScreenState();
+  // The State class now correctly corresponds to the updated widget name.
+  State<DayOneCoffeeAnimationScreen> createState() => _DayOneCoffeeAnimationScreenState();
 }
 
-class _DayOneAnimationScreenState extends State<DayOneAnimationScreen>
+// The State class is linked to the corrected widget name.
+class _DayOneCoffeeAnimationScreenState extends State<DayOneCoffeeAnimationScreen>
     with TickerProviderStateMixin {
   late AnimationController _liquidController;
   late Animation<double> _liquidHeightAnimation;

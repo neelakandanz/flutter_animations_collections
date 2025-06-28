@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const DayOneAnimationScreen(),
+                  builder: (context) => const DayOneCoffeeAnimationScreen(),
                 ),
               );
             },
