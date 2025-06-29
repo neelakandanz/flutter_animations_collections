@@ -1,21 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/app/animation/day_one_animation_screen.dart';
 
-// Assume you have created this file for your Day 2 animation.
-// import 'package:myapp/app/animation/day_two_animation_screen.dart';
 
-// --- Placeholder for Day 2 Screen (for demonstration) ---
-// You would replace this with your actual Day 2 screen import.
-class DayTwoAnimationScreen extends StatelessWidget {
-  const DayTwoAnimationScreen({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Day 2 Animation')),
-      body: const Center(child: Text('Animation for Day 2')),
-    );
-  }
-}
 // -----------------------------------------------------------
 
 class HomeScreen extends StatelessWidget {
@@ -25,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   // To add a new day, just add the screen widget to this list.
   final List<Widget> _animationScreens = const [
     DayOneCoffeeAnimationScreen(),
-    DayTwoAnimationScreen(),
+    PowerButtonToggle(),
     // Add DayThreeAnimationScreen() here in the future
   ];
 
